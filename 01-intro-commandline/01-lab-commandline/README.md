@@ -96,3 +96,4 @@ Be sure you open up your "my-favorite-things" directory in VS Code, so you can t
 ## Additional Resources
 
 * A list of [CLI Shortcuts](https://gist.github.com/alexpchin/01caa027b825d5f98871)
+* Terminal command [cheatsheet](https://github.com/0nn0/terminal-mac-cheatsheet)
