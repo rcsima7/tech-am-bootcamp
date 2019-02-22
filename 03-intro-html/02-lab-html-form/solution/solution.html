@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Smartly.io Account Creation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <img src="../smartly_logo.png" alt="smartly logo" style="max-width: 500px;">
+
+  <h1>Smartly.io Account Creation</h1>
+  <p>Welcome to the Smartly.io. Smartly.io is a one-stop hub for all your advertising needs.</p>
+  <p>Please fill out the information below to create your Smartly.io account. Let us know what city you're in and your
+  company type.</p>
+  
+  <form action="success.html" method="get">
+    <div>
+      <label for="city">City:</label>
+      <select id="city-select" name="city">
+        <option value="london">London</option>
+        <option value="new york">New York</option>
+        <option value="san francisco">San Francisco</option>
+        <option value="singapore">Singapore</option>
+        <option value="helsinki">Helsinki</option>
+      </select>
+    </div>
+    <div>
+      <span>Company type:</span>
+      <input type="radio" id="in-house-marketing" name="company-type" value="in-house-marketing" checked>
+      <label for="in-house-marketing">In-House Marketing</label>
+      <input type="radio" id="agency" name="company-type" value="agency">
+      <label for="agency">Agency</label>
+    </div>
+    <div>
+      <label for="full-name">Full name:</label>
+      <input type="text" name="full-name">
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" name="email">
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" name="password">
+    </div>
+    <div>
+      <input type="checkbox" id="newsletter" name="newsletter-opt-in" value="opt-in" checked>
+      <label for="newsletter-opt-in">Yes, subscribe me to the Smartly.io newsletter</label>
+    </div>
+    <input type="submit" value="submit">
+  </form>
+</body>
+</html>
