@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+section {
+  margin-bottom: 30px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+#pokemon-name {
+  text-align: center;
+  font-weight: normal;
+}
+#pokemon-image {
+  background-color: #f2f2f2;
+}
+
+#pokemon-index {
+  color: darkgray;
+}
+#pokemon-stats {
+  font-size: 0;
+  padding: 20px;
+  background-color: #a4a4a4;
+  border-radius: 10px;
+}
+
+#pokemon-evolution,
+#pokemon-description {
+  /* border: 1px solid blue; */
+  padding: 5px;
+  margin-bottom: 10px;
+}
+#pokemon-evolution {
+  background-color: #646464;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+
+#pokemon-data {
+  background-color: #2fa7d8;
+  padding: 20px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.attribute-group {
+  display: inline-block;
+  /** 
+    * Note: CSS hack to make divs side-by-side 
+    * https://uxengineer.com/inline-block-elements-100-percent-width/
+    * (Recommendation: Learn flexbox)
+    */
+  width: calc(50% - 3px);
+}
+.attribute-group span {
+  display: block;
+  margin-bottom: 20px;
+}
+.attribute-name {
+  color: white;
+  font-size: 0.9em;
+}
+
+.section-title {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0 0 15px 0;
+}
+
+.stat-bar {
+  min-width: 100%;
+  font-size: 0.5rem;
+  margin-bottom: 5px;
+  background-color: white;
+}
+.stat-bar-highlighted {
+  background-color: #2fa7d8;
+}
+.stat-name {
+  display: block;
+  font-size: 0.8rem;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.column {
+  display: inline-block;
+  vertical-align: top;
+}
+.column-1-of-2 {
+  width: calc((100%/2) - 3px);
+  padding: 5px;
+}
+.column-1-of-6 {
+  width: calc((100%/6) - 6px);
+  margin: 0 3px;
+}
+
+.chart {
+  text-align: center;
+}
+
+/* Labels */
+.label {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 7px;
+  margin-bottom: 7px;
+  width: calc((100%/3) - 4px);
+  text-align: center;
+  color: white;
+}
+.label-small {
+  padding: 2px;
+  margin-bottom: 0;
+  width: calc((100%/2) - 3px);
+}
+
+.label-grass {
+  background-color: #9bcc50;
+}
+.label-poison {
+  background-color: #b97fc8;
+}
+.label-fire {
+  background-color: #fe7d22;
+}
+.label-flying {
+  background-color: #3ec6ef;
+}
+.label-ice {
+  background-color: #3ec6ef;
+}
+.label-psychic {
+  background-color: #f366b9;
+}
+
+/* Advanced */
+/* Flexbox related CSS (used for Evolutions section as a demo of flexbox) */
+.flex-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.flex-item {
+  flex-basis: 100%;
+  /* border: 1px solid yellow; */
+  text-align: center;
+  padding: 30px;
+}
+
+.image-bubble {
+  width: 80%;
+  border-radius: 999rem;
+  border: 5px solid white;
+  margin: 0 auto;
+  box-shadow: 1px 5px 5px black;
+  position: relative;
+}
+.stage-name {
+  color: white;
+  margin: 20px 0;
+}
+.stage-index {
+  color: #a4a4a4;
+}
+.arrow {
+  position: absolute;
+  right: -75px;
+  top: 55px;
+  font-size: 4em;
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Pokedex</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+</head>
+<body>
+  <header>
+    <h1 id="pokemon-name">
+      Bulbasaur 
+      <span id="pokemon-index">#001</span>
+    </h1>
+  </header>
+
+  <main>
+    <div id="pokemon-description">
+      <div class="column column-1-of-2">
+        <section id="pokemon-image">
+          <img src="../images/bulbasaur-main.png" alt="Bulbausaur">
+        </section>
+        <section id="pokemon-stats">
+          <h2 class="section-title">Stats</h2>
+          <div class="chart">
+            <div class="column column-1-of-6">
+              <!-- Note: &nbsp; will be interpreted by browser as a single white space -->
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar stat-bar-highlighted">&nbsp;</div>
+              <div class="stat-bar stat-bar-highlighted">&nbsp;</div>
+              <span class="stat-name">HP</span>
+            </div>
+            <div class="column column-1-of-6">
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar stat-bar-highlighted">&nbsp;</div>
+              <div class="stat-bar stat-bar-highlighted">&nbsp;</div>
+              <div class="stat-bar stat-bar-highlighted">&nbsp;</div>
+              <span class="stat-name">Attack</span>
+            </div>
+            <div class="column column-1-of-6">
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar stat-bar-highlighted">&nbsp;</div>
+              <div class="stat-bar stat-bar-highlighted">&nbsp;</div>
+              <span class="stat-name">Defence</span>
+            </div>
+            <div class="column column-1-of-6">
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar stat-bar-highlighted">&nbsp;</div>
+              <div class="stat-bar stat-bar-highlighted">&nbsp;</div>
+              <div class="stat-bar stat-bar-highlighted">&nbsp;</div>
+              <span class="stat-name">Special Attack</span>
+            </div>
+            <div class="column column-1-of-6">
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar stat-bar-highlighted">&nbsp;</div>
+              <div class="stat-bar stat-bar-highlighted">&nbsp;</div>
+              <div class="stat-bar stat-bar-highlighted">&nbsp;</div>
+              <span class="stat-name">Special Defence</span>
+            </div>
+            <div class="column column-1-of-6">
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar">&nbsp;</div>
+              <div class="stat-bar stat-bar-highlighted">&nbsp;</div>
+              <div class="stat-bar stat-bar-highlighted">&nbsp;</div>
+              <div class="stat-bar stat-bar-highlighted">&nbsp;</div>
+              <span class="stat-name">Speed</span>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="column column-1-of-2">
+        <section>
+          Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
+        </section>
+        <section id="pokemon-data">
+          <div class="attribute-group">
+            <span class="attribute-name">Height</span>
+            <span class="attribute-value">2' 04"</span>
+          </div>
+          <div class="attribute-group">
+            <span class="attribute-name">Category</span>
+            <span class="attribute-value">Seed</span>
+          </div>
+          <div class="attribute-group">
+            <span class="attribute-name">Weight</span>
+            <span class="attribute-value">15.2 lbs</span>
+          </div>
+          <div class="attribute-group">
+            <span class="attribute-name">Abilities</span>
+            <span class="attribute-value">Overgrow</span>
+          </div>
+        </section>
+        <section id="pokemon-type">
+          <h2 class="section-title">Type</h2>
+          <span class="label label-grass">Grass</span>
+          <span class="label label-poison">Poison</span>
+        </section>
+        <section id="pokemon-weaknesses">
+          <h2 class="section-title">Weaknesses</h2>
+          <span class="label label-fire">Fire</span>
+          <span class="label label-flying">Flying</span>
+          <span class="label label-ice">Ice</span>
+          <span class="label label-psychic">Psychic</span>
+        </section>
+      </div>
+    </div>
+    <!-- Advanced -->
+    <!-- This section will use Flexbox for creating the layout -->
+    <section id="pokemon-evolution">
+      <h2 class="section-title">
+        Evolutions
+      </h2>
+      <div class="flex-container">
+        <div class="flex-item">
+          <div class="image-bubble">
+            <img src="../images/bulbasaur-small.png" alt="Bulbasaur">
+            <span class="arrow">></span>
+          </div>
+          <div class="stage-name">
+            Bulbasaur
+            <span class="stage-index">#001</span>
+          </div>
+          <div class="stage-type">
+            <span class="label label-small label-grass">Grass</span>
+            <span class="label label-small label-poison">Poison</span>
+          </div>
+        </div>
+        <div class="flex-item">
+          <div class="image-bubble">
+            <img src="../images/ivysaur-small.png" alt="Ivysaur">
+            <span class="arrow">></span>
+          </div>
+          <div class="stage-name">
+            Ivysaur
+            <span class="stage-index">#002</span>
+          </div>
+          <div class="stage-type">
+            <span class="label label-small label-grass">Grass</span>
+            <span class="label label-small label-poison">Poison</span>
+          </div>
+        </div>
+        <div class="flex-item">
+          <div class="image-bubble">
+            <img src="../images/venusaur-small.png" alt="Venusaur">
+          </div>
+          <div class="stage-name">
+            Venusaur
+            <span class="stage-index">#003</span>
+          </div>
+          <div class="stage-type">
+            <span class="label label-small label-grass">Grass</span>
+            <span class="label label-small label-poison">Poison</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
