@@ -150,7 +150,6 @@ const creatives = [
         "_created_at": 1547988865
       },
       "image_template_id": "5c446992f3fd8f74bb2f8633"
-      }
     },
     "name": "Link Ad"
   },
@@ -193,7 +192,6 @@ const creatives = [
         "_created_at": 1547988865
       },
       "image_template_id": "5c446992f3fd8f74bb2f8633"
-      }
     },
     "name": "Link Ad",
   },
@@ -236,7 +234,6 @@ const creatives = [
         "_created_at": 1547988865
       },
       "image_template_id": "5c446992f3fd8f74bb2f8633"
-      }
     },
     "name": "Link Ad"
   }
