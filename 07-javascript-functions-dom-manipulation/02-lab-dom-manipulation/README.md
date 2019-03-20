@@ -3,9 +3,9 @@
 Open index.html in the browser. Then, open the console and make the following changes to the box directly from the console:
 
 1. Using `getElementById` to select __box1__, change the following style properties of the box:
-  * height: 100px
-  * width: 750px
-  * background colour: purple
+    * height: 100px
+    * width: 750px
+    * background colour: purple
 2. Now use `querySelector` to select the __box2__ by ID and add the class "box-cool" to the element (no need to write your own CSS for it).
 3. Next, use whatever selector you wish to change the link URL from https://google.com to https://smartly.io. Click the link to test it!
 4. Now, use `querySelectorAll` to select __both boxes__ and change their background colour to be "paleturquoise".

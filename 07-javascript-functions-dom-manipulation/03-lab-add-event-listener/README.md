@@ -9,7 +9,7 @@ For this exercise, open index.html in the browser and write your code in main.js
 #### Instructions
 
 1. Write code that enables a user to change the colour of __box1__ to "salmon" colour by clicking on the "Change colour" button.
-  * __Hint__: You will need to use `addEventListener` and write the code in the function that will be called whenever the 'click' event happens on the button.
+    * __Hint__: You will need to use `addEventListener` and write the code in the function that will be called whenever the 'click' event happens on the button.
 2. Now, write code that enables a user to increase the width of __box2__ by 20px with each click of the "Increase width" button.
 
 #### Bonus
