@@ -18,6 +18,8 @@ Requirements:
 * Discount percentage is calculated based on `sale_price` and `price` fields
 * Don't show decimal points, eg. 23% not 23.16%
 
+__Note__: Facebook actually generates a handy virtual field called `discount_percent` automatically based on the `price` and `sale_price` values in a Feed. See our Knowledge Base [article](https://support.zd.smartly.io/hc/en-us/articles/360003588473) for more information under "Virtual fields". However, this is not usable in the Creative's field outside of Image Templates.
+
 
 ### 2. Client wants to show only first 20 characters of description
 
