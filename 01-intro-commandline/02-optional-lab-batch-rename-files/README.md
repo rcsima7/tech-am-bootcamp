@@ -28,3 +28,16 @@ for file in *.png
 
 Do we have to put 'file' in curly brackets? 'smartly_${file}'
 
+#### Reka's Notes
+How to run a shell script from terminal:
+.sh extension stands for terminal
+can give it to a file and run it as a script:
+touch rename_files.sh
+code rename_files.sh
+put the code in there
+
+run by always the current folder and file name:
+./rename_files.sh
+will get denied notice, have to authorize it
+chmod +x rename_files.sh
+
