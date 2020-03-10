@@ -9,3 +9,8 @@ git remote add origin https://github.com/INSERT_YOUR_USERNAME/my-first-git-repo.
 git push -u origin master
 4. Go back to the GitHub repository you just created and hit refresh → you will see your file there, along with your commit!
 
+## Reka's Solution
+Remote repo in this case is the origin of tech-ach-bootcamp
+Current changes of In-classl-lab 1 & 2 will be pushed there under commit:
+Lesson2: In-class-lab2
+
