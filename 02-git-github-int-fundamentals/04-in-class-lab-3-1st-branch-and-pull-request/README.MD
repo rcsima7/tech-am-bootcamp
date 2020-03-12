@@ -14,6 +14,9 @@
 ## Notes
 For this lab, you will be added as “collaborators” on a repository, so that you can push changes to the repository and create Pull requests
 
+## Reka's Solution:
+Solution is outside of this repo. Pushed to https://github.com/nickangtc/fake-codebase on branch 'Reka2-fature'
+
 ## Reka's Notes:
 Delete branch locally
 git branch -d [branch-name]

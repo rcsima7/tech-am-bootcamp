@@ -85,12 +85,25 @@ were a web page!
 ping 127.0.0.1
 ```
 
+#### Reka's Solution:
+--- 127.0.0.1 ping statistics ---
+9 packets transmitted, 9 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.049/0.085/0.098/0.014 ms
+
 #### Experiment with the traceroute command to see how internet traffic flows between your computer and servers:
 
 ```
 # the traceroute command will show which servers routed the traffic
 traceroute washington.edu
 ```
+
+#### Reka's Solution:
+traceroute: Warning: washington.edu has multiple addresses; using 128.95.155.198
+traceroute to washington.edu (128.95.155.198), 64 hops max, 52 byte packets
+ 1  logout (10.253.0.1)  3.004 ms  3.807 ms  2.138 ms
+ 2  192.168.4.1 (192.168.4.1)  3.442 ms  3.826 ms  3.257 ms
+ 3  192.168.103.1 (192.168.103.1)  3.202 ms  4.013 ms  4.122 ms
+ 4  * *^C
 
 ##### Sample Output
 
