@@ -30,3 +30,5 @@ Decided not to init a new repo inside this folder named my-first-git-repo
 It's not recommended to hist a repo inside a repo
 Commits from this lab will be added to the master branch, tagged:
 Lesson2: In-class-lab1
+
+## Reka's Notes:
