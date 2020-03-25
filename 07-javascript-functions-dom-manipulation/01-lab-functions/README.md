@@ -1,3 +1,10 @@
+# Reka's Questions
+
+1. Creating your own functions / 2
+    `hi there ${name}`
+    Only works with ` apostrophes and not quotation marks.
+    Is this specific to the ${...} syntax?
+
 # Functions
 
 For all the exercises below, we will write our code in the main.js file and open the linked index.html in the browser. Open your browser console to see the results.

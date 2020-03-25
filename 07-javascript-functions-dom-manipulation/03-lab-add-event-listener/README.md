@@ -19,3 +19,4 @@ Further challenges:
 1. Modify the logic of "Change colour" so that it changes box1's background to a random colour (perhaps out of a list of 10 predefined colours).
 2. Write code that will enable a user to click the key 'c' on their keyboard to trigger a background colour change in box1.
 3. Implement a Reset button that will change both boxes to their original state.
+
