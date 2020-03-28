@@ -1,3 +1,14 @@
+#### Reka's Notes:
+Seems like elements modifies via JS will not be added to original html file.
+
+Quotation marks not needed when referring to a page element that has been declared as a variable.
+
+```js
+document.body
+```
+only comes into the picture when we are appending or removing chil elements.
+
+
 # DOM Manipulation Part 1
 
 Open index.html in the browser. Then, open the console and make the following changes to the box directly from the console:

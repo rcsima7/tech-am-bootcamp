@@ -1,3 +1,5 @@
+// PART 1 //////////////////////////////////////////
+
 console.log('boom');
 // 1. Using `getElementById` to select __box1__, change the following style properties of the box:
 //     * height: 100px
@@ -44,3 +46,40 @@ let allBoxes = document.querySelectorAll("div[class^='box']");
 for (i = 0; i < allBoxes.length; i++) {
     allBoxes[i].style.backgroundColor = 'paleturquoise'
 };
+
+// PART 2 //////////////////////////////////////////////////////////
+
+// 1. Add a `<footer>` element to the bottom of the page. It should say "Powering Beuatifully Effective Ads".
+const addFooter = document.createElement('footer');
+addFooter.textContent = 'Powering beautifully effective ads';
+document.body.appendChild(addFooter);
+
+// 2. Add a 4th item to the "Why Smartly.io" list that has the content "Scale".
+const item4 = document.createElement('li');
+item4.textContent = 'Scale';
+
+const list = document.body.querySelector('ul');
+list.appendChild(item4);
+
+// 3. Delete the existing `<footer>`.
+const existingFooter = document.querySelector('footer');
+document.body.removeChild(existingFooter);
+
+// 4. This time, add a new `<footer>` that looks like this HTML:
+// ```html
+// <footer>
+//   <a href="https://smartly.io">Start</a> creating Beautifully Effective Ads today.
+// </footer>
+// ```
+
+const newFooter = document.createElement('footer');
+document.body.appendChild(newFooter);
+
+const footerLink = document.createElement('a');
+footerLink.href = "https://smartly.io";
+footerLink.textContent = 'Start';
+newFooter.appendChild(footerLink);
+
+const footerText = document.createElement('string');
+footerText.textContent = ' creating beautifully effective ads today';
+newFooter.appendChild(footerText);
