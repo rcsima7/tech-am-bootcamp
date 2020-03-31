@@ -1,3 +1,23 @@
+# Reka's Questions:
+Would like to learn more about DOMCOntentLoaded
+Why do we need to include the whole functions in the 1st container function?
+     *So that we wait for all the DOMcontent to load, and we are able to refer to them without errors?
+
+How would you make this code more organized?
+Functions for eventListeners are not defined in advance.
+Where should these be located if we define them separately? Before or after the eventListener?
+
+# Reka's Notes:
+
+Task No 2:
+OffsetWidth: returns current width of an element
+
+Further challenges No 1:
+Solution from: https://stackoverflow.com/questions/23818675/change-background-color-with-a-loop-onclick
+
+Shift out 1st element of array on click and push it to the end.
+For loop didn't work. It looped through the whole array at each click so quickly that only the last color in the array could be seen.
+
 # Event listeners
 
 Now that we know how to manipulate the DOM using JavaScript, it's time to tie it all together by making this workflow happen with our code:
