@@ -1,3 +1,10 @@
+# Reka's Notes
+
+Not sure that numeric expressions can take paretheses and abide
+by calculus rules. So separating expression in 2 parts. Making sure
+-32 happens first
+
+
 # Temperature converter program
 
 You will be writing your first program! It is a temperature converter.
