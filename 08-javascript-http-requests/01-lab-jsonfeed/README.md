@@ -1,3 +1,9 @@
+# Reka's Notes:
+
+Using insertBefore or prepend for adding list to a specific place under body.
+
+Would be nice to go over => syntax
+
 # Get data from a hosted JSON feed
 
 ![travel website screenshot](./travel_website.png)

@@ -1,5 +1,5 @@
 #### Reka's Notes:
-Seems like elements modifies via JS will not be added to original html file.
+Seems like elements modified via JS will not be added to original html file.
 
 Quotation marks not needed when referring to a page element that has been declared as a variable.
 

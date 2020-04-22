@@ -51,10 +51,20 @@ It looks like you received the `id` field of the campaign. What other fields can
 2. Click Submit and see the new response
 3. Using this new information, answer these questions about this Campaign:
     * What is the name of this Campaign?
+      Zara / Creative Examples (mockups) - 2
+
     * What is the Campaign's FB objective?
+      CONVERSIONS
+
     * Which ad account does this Campaign belong in?
+      1026331737389807
+
     * What is the current status of the Campaign (eg. paused, active, etc.)?
+      PAUSED
+
     * Does FB have any recommendations about this Campaign?
+     Not included in response
+
 
 __Hint__: the `fields=` URL parameter can take in multiple fields separated by comma. For example, `.../?fields=id,name`.
 
