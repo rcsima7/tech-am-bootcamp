@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Temperature converter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <script src="main.js"></script>
+  <link rel="stylesheet" href='main.css'>
+</head>
+<body>
+
+
+  <!-- <div id="text-container">
+    <h1>Temparature Converter</h1>
+
+      <div>
+        <label for="convert-from">I'd like to convert:</label>
+      </div>
+
+      <div>
+        <input id="convert-from" name="comvertfrom" type="text">
+      </div>
+    
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Metric
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <button id='F' class="dropdown-item" type="button">Fahrenheit</button>
+        <button id='C' class="dropdown-item" type="button">Celsius</button>
+      </div>
+    </div>
+    
+    <div>
+      <button id='convert' type="button" class="btn btn-dark">Convert</button>
+    </div>
+
+  </div> -->
+
+  <!-- Carousel -->
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    
+    <div class="carousel-inner">
+      
+      <div class="carousel-item active" data-interval="2000">
+        <img id='pic1' src="https://images.pexels.com/photos/1431822/pexels-photo-1431822.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-caption">
+        <h1 class="h1-responsive">Temparature Converter</h1>
+        <label id='convert-text' for="convert-from" class="bg-light text-dark border border-dark rounded">I'd like to convert:</label>
+        <div>
+          <input id="convert-from" name="comvertfrom" type="text">
+        </div>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle btn-outline-dark" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Metric
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <button id='F' class="dropdown-item" type="button">Fahrenheit</button>
+            <button id='C' class="dropdown-item" type="button">Celsius</button>
+          </div>
+        </div>
+        
+        <div>
+          <button id='convert' type="button" class="btn btn-dark btn-lg">Convert</button>
+        </div>
+       
+      </div>
+
+      <div class="carousel-item" data-interval="4000">
+        <img id='pic2' src="https://images.pexels.com/photos/1107717/pexels-photo-1107717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-interval="6000">
+        <img id='pic3' src="https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  
+</body>
+</html>

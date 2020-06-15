@@ -1,0 +1,25 @@
+body {
+  
+  text-align: center;
+}
+
+.carousel-caption {
+  top: 20%;
+}
+
+.dropdown {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#convert {
+  margin-bottom: 2%;
+}
+
+input {
+  text-align: center;
+}
+
+#convert-text {
+  padding: 3px;
+}
